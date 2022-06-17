@@ -241,7 +241,7 @@ i {
       margin-top: -100px;
       color: hsl(193, 100%, 96%);
   }
-@media only screen and(max-width:775px){
+@media only screen and(max-width:768px){
     header {
         height: 790px;
     }
