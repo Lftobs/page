@@ -246,7 +246,7 @@ i {
         height: 790px;
     }
     .nav {
-        gap:45%
+        gap:45%;
     }
     .nav-main {
         flex-direction: column;
