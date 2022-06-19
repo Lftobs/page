@@ -14,7 +14,7 @@ header {
 .nav {
     display: flex;
     width: 100%;
-    gap:38%;
+    gap:36%;
     margin-bottom: 40px;
     justify-content: center;
 }
@@ -23,7 +23,7 @@ header {
     height: 20px;
     margin-left: 25px;
     margin-top: 28px;
-    margin-right: 22%;  
+    margin-right: 18%;  
 }
 .nav button {
     margin-top: 20px;
@@ -90,8 +90,8 @@ img {
 .main-c {
     display:flex;
     flex-direction: column;
-   margin-left: 8%;
     
+    align-items: center;
     justify-content: center;
 }
 .c1, .c2, .c3 {
@@ -157,7 +157,7 @@ img {
       border-radius: 15px;
       background: white;
       text-align: center;
-      margin-left: 8%;
+      margin-left: 22%;
       padding: 10px;
       box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2) ;
       position: relative;
@@ -196,7 +196,7 @@ footer {
     fill: hsl(193, 100%, 96%);
 }
 .ad {
-    margin-left: 8%;
+    margin-left: 15%;
     margin-top: -25px;
 }
 td {
@@ -214,7 +214,7 @@ i {
     display: flex;
     flex-direction: column;
     gap:25px;
-    margin-left: 8%;
+    margin-left: 15%;
 }
 .link, .link2 {
     display: flex;
@@ -269,18 +269,57 @@ i {
 
 
 @media(min-width:780px){
-	.main-c {
-		margin-left: 35%;
-	}
+	
+    header{
+        height: 980px;
+    }
+    .text-h{
+        width: 600px;
+        
+    }
+    .text-h h1{ 
+        font-size: 45px;
+    }
+    .text-h button {
+        width: 50%;
+    }
+    .text-h p{ 
+        font-size: 18px;
+    }
+    .img-h{
+        width: 600px;
+    }
+    img{
+        width: 600px;
+        height: 400px;
+    }
+    .c1, .c2, .c3 {
+        width: 600px;
+        height: 500px;
+        padding: 30px;
+        background-size: 350px 250px;
+    }
+    .c1 p, .c2 p, .c3 p{
+        font-size: 16px;
+        line-height: 2;
+    }
+    .c1 h3, .c2 h3, .c3 h3{
+        margin-top: 50px;
+    }
 	.ci {
-		margin-left: 35%;
+        margin-left: 35%;
 	}
 	.g1 {
 		flex-direction: row;
-		gap:-700px;
+		gap: 35px;
 	}
+    .ad {
+        margin-left: 8%;
+    }
+    
 	.link-c {
 		flex-direction: row;
+        margin-left: 220px;
 	}
 	.link {
 		margin-left: -105%;
