@@ -273,6 +273,9 @@ i {
     header{
         height: 980px;
     }
+    footer {
+	height:500px;
+    }
     .text-h{
         width: 600px;
         
@@ -319,7 +322,7 @@ i {
     
 	.link-c {
 		flex-direction: row;
-        margin-left: 100px;
+        margin-left: 50px;
 	}
 	.link {
 		margin-left: -105%;
